@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: url(../images/bg1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+	margin:0;
+	color:#232323;
+	padding-top: 0px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	width:100%;
+}
+div, h1, h2, h3, h4, p, form, label, input, textarea, img, span{
+	margin:0; padding:0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: rockwell condensed;
+    font-size: 30px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-style: forte;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #2e2eb8;
+}
+.active {
+    background-color: #2e2eb8;
+}
+.spacer{
+	clear:both; 
+	font-size:0; 
+	line-height:0;
+}
+
+#header
+{
+margin:0 auto;
+background:url(images/web-design_02.jpg) 0 0 repeat-x;
+height:178px;
+}
+#name
+{
+margin:0 auto;
+width:854px;
+height:100px;
+}
+#portfolio
+{
+margin:0 auto;
+font: 20px/50px stencil, Helvetica, sans-serif;
+font-size: 50px;
+color:#ffff4d;
+}
+#portfolio a
+{
+color:#7eff30;
+text-decoration:none;
+}
+#templates
+{
+margin:0 auto;
+background:url(images/web-design_28.jpg) bottom center repeat-x;
+}
+.high img
+{
+border:8px solid #111111;
+}
+.high:hover img
+{
+border:8px solid #b3ff66;
+}
+
+#footer
+{
+background:url(../images/web-design_38.jpg) 0 0 repeat-x;
+height:111px;
+}
+#design
+{
+font:normal 12px/18px Arial, Helvetica, sans-serif;
+color:#000000;
+padding:60px 0 0 100px;
+float:left;
+}
+#dum
+{
+color:blue;
+text-decoration:none;
+}
